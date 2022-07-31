@@ -1,11 +1,11 @@
 /** @format */
 
-module.exports= {
+module.exports = {
 	plugins: [],
+	content: ["./src/**/*.{html,js,svelte,ts}"],
 	theme: {
 		extend: {},
 	},
-	purge: ["./index.html", "./src/**/*.{svelte,js,ts}"], // for unused CSS
 	variants: {
 		extend: {},
 	},
